@@ -22,7 +22,7 @@ function App() {
     <div className='App'>
       <Header />
       <Routes>
-        <Route path="/" element={<Homepage/>}></Route>
+        <Route path="/movielist-routing/" element={<Homepage/>}></Route>
         <Route path="Aboutpage" element={<Aboutpage/>}></Route>
       </Routes>
 
